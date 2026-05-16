@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart IoT Landing Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <nav>
+      <h1>IoT<span>X</span></h1>
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <div class="left">
+        <h2>Smart Health Monitoring System</h2>
+        <p>
+          Monitor patient health in real-time using IoT-enabled sensors,
+          wireless communication, and intelligent dashboards.
+        </p>
+        <button>Get Started</button>
+      </div>
+
+      <div class="right">
+        <img src="hero-image.png" alt="IoT Device">
+      </div>
+    </div>
+  </header>
+
+  <section id="features">
+    <h2>Features</h2>
+
+    <div class="feature-grid">
+      <div class="card">
+        <h3>📡 Real-Time Monitoring</h3>
+        <p>Track temperature and pulse data instantly.</p>
+      </div>
+
+      <div class="card">
+        <h3>🌐 Wireless Connectivity</h3>
+        <p>ESP32-powered communication system.</p>
+      </div>
+
+      <div class="card">
+        <h3>📊 Live Dashboard</h3>
+        <p>Visualize sensor data on web interface.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About The Product</h2>
+    <p>
+      This smart IoT system helps monitor health conditions remotely.
+      It combines embedded systems, sensors, and web technologies
+      to create an efficient healthcare solution.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: devrshi.yaduvansh@gmail.com</p>
+    <button>Connect Now</button>
+  </section>
+
+  <footer>
+    <p>© 2026 Devrshi Yaduvansh | CODSOFT Internship</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
